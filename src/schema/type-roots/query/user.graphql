@@ -1,0 +1,8 @@
+type Query {
+    "Registered users in Data Base"
+    users (page: Int = 1, itemsPage: Int = 20): ResultUsers
+    "Login Users"
+    login(email: String!, password: String!): ResultLogin
+    "Token Authentication"
+    me: ResultUser
+}

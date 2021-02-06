@@ -1,0 +1,16 @@
+"""
+ACTION: Create/Update/Remove
+COLLECTION: Users
+RETURN TYPE: User
+"""
+input UserInput{
+    id: ID
+    name: String!
+    lastname: String!
+    email: String!
+    password: String
+    birthDate: String!
+    "Not Mandatory"
+    role: Role=CLIENT
+    platform: ID="0"
+}

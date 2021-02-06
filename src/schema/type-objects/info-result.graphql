@@ -1,0 +1,8 @@
+type ResultInfo {
+    page: Int!
+    "Number of collections in the query"
+    total: Int!
+    "Documents per page"
+    itemsPage: Int!
+    pages: Int!
+}

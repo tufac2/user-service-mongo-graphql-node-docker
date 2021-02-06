@@ -1,0 +1,5 @@
+type Mutation {
+    register(user: UserInput!): ResultUser
+    updateUser(user: UserInput!): ResultUser
+    deleteUser(id: ID!): ResultUser
+}

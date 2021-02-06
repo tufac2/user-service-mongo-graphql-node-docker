@@ -1,0 +1,12 @@
+type ResultUsers implements Result{
+    info: ResultInfo
+    status: Boolean!
+    message: String!
+    users: [User!]!
+}
+
+type ResultUser implements Result{
+    status: Boolean!
+    message: String!
+    user: User
+}
